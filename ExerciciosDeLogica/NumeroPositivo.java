@@ -9,17 +9,22 @@ quando o usuário requisitar. */
     public static void main(String [] args){
 
         Scanner entrada = new Scanner(System.in);
-        double numero = entrada.nextDouble();
+        
+        double numero = 0;
+        do {
 
-        if(numero >= 0){
+        System.out.print("Digite um numero: ");
+         numero = entrada.nextDouble();
+
+        if(numero > 0){
             
             System.out.println("Numero positivo");
 
         }else{
             System.out.println("numero negativo");
         }
-        
+    }while (numero ==0);
         entrada.close();
-    }
+    } 
 
 }
