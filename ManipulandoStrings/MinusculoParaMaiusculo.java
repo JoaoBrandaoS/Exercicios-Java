@@ -10,7 +10,7 @@ public class MinusculoParaMaiusculo {
 
         String frase = "o rato roeu a roupa do rei de roma";
 
-        
+
         frase = frase.replaceAll("o", "O");
         System.out.println(frase);
 
