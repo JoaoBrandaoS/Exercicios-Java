@@ -1,10 +1,18 @@
 package ExercicioContaBancaria;
 
-import ExercicioContaBancaria.SaldoInsuficienteException;
 
 public class ContaBancaria {
   
     private int numeroDaConta;
+    
+    public int getNumeroDaConta() {
+        return numeroDaConta;
+    }
+
+    public void setNumeroDaConta(int numeroDaConta) {
+        this.numeroDaConta = numeroDaConta;
+    }
+
     private double saldoAtual;
 
     public ContaBancaria(){

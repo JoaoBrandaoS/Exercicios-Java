@@ -1,7 +1,6 @@
 package PooSegundoExercicio;
 
 import java.util.Scanner;
-import PooSegundoExercicio.escola;
 
 public class main {
     public static void main(String [] args){
