@@ -1,7 +1,6 @@
 package SaqueDeposito;
 
 import java.util.Scanner;
-import SaqueDeposito.Banco;
 
 public class main {
 public static void main(String [] args){
@@ -23,9 +22,9 @@ public static void main(String [] args){
             break;
 
         }else if(operacao == 1){
-        
             System.out.println("digite o valor para saque:");
             double valor = entrada.nextDouble();
+
             if(usBanco.sacar(valor) > 0){
                 usBanco.sacar(valor);
                 System.out.printf("Você sacou %.1f",valor);
@@ -36,10 +35,10 @@ public static void main(String [] args){
             }
 
         }else if(operacao == 2){
-            
             System.out.println("digite o valor para deposito:");
             double valor = entrada.nextDouble();
             usBanco.deposito(valor);
+            
         }else if(operacao == 3){
         
             System.out.printf("Seu saldo é %.1f",usBanco.getSaldo());
