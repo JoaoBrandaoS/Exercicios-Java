@@ -1,6 +1,6 @@
-package LogicaChatGPT;
+package manipulandoString;
 
-public class ManipulandoString {
+public class ManipulandoStringExercicioUm {
 
     public static void main(String [] args){
         String listaNumeros = "3,5,7,2,10";
